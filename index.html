@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+
+    <link rel="shortcut icon" href="./img/icons8-puzzle-32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/nomalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+</head>
+
+<body>
+    <!-- Boton para subir -->
+    <span class="ir-arriba"><img src="./img/flechaArriba.svg" class="boton_subir_img"></span>
+
+    
+
+    <header class="headersup">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <h2 class="nav_title">FORZE</h2>
+            </div>
+
+            <ul class="nav_link nav_link--menu">
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#about-link" class="nav_links">Acerca de</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#price-link" class="nav_links">Plan</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#testimony" class="nav_links">Tetsimonios</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#formu-link" class="nav_links">Contacto</a>
+                </li>
+               
+                <img src="./img/icons8-cancelar.svg" class="nav_close">
+
+
+            </ul>
+            <div class="nav_menu">
+                <img src="./img/icono-menu.svg" class="nav_img">
+            </div>
+
+        </nav>
+        <section class="hero_container container">
+            <h1 class="hero_title">Aprende CSS desde CERO</h1>
+            <p class="hero_paragraph">Elige aprender CSS de una vez por todas , y haga cosas increibles </p>
+            <a href="#" class="cta cta_anim">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about" >
+            <h2 class="subtitle" >¿Que aprenderas en este curso?</h2>
+            <p class="about_paragraph">Los principales fundamentos para llevar a cabo el diseño de una web desde 0 .</p>
+            <div class="about_main">
+                <article class="about_icons">
+                    <img src="./img/icons8-css3.svg" class="about_icon">
+                    <h3 class="about_title">CSS3 Layout</h3>
+                    <p class="about_paragrah"> Nos permitira definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. 
+                        El cual establece el diseño visual de los documentos web e interfaces de usuario escritas en HTML.</p>
+                </article>
+                <article class="about_icons">
+                    <img src="./img/icons8-3ds-max.svg" class="about_icon">
+                    <h3 class="about_title">CSS3 Animacion</h3>
+                    <p class="about_paragrah">Nos permiten animar la transición entre un estilo CSS y otro. Lo cual hará animación un estilo que describe la animación CSS y un conjunto de fotogramas que indican su estado inicial y final, así como posibles puntos intermedios en la misma.</p>
+                </article>
+                <article class="about_icons">
+                    <img src="./img/icons8-sass.svg" class="about_icon">
+                    <h3 class="about_title">SASS</h3>
+                    <p class="about_paragrah">Una herramienta que nos permite generar, de manera automática, hojas de estilo, añadiéndoles características que no tiene CSS, y que son propias de los lenguajes de programación, como pueden ser variables, funciones, selectores anidados, herencia,</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Knowledge -->
+        
+        <section class="knowledge" id="about-link">
+            <div class="knowledge_container container">
+                <div class="knowledge_texts">
+                    <h2 class="subtitle">Acerca de Nosotros </h2>
+                    <h4>Un buen diseño hace la vida mejor.</h4>
+                    <p class="knowledge_paragrah"> Somos expertos en diseño web y entrenados en desarrollo web para la industria digital. Ofrecemos un servicio personalizado, profesional y confiable. </p>
+                        <a href="" class="cta cta_anim">Entra al curso</a>
+                </div>
+                <figure class="knowledge_picture">
+                    <img src="./img/about.jpg" class="knowledge_img">
+                </figure>
+            </div>   
+        </section>
+
+        <!-- Prices -->
+
+        <section class="price container" id="price-link">
+            <h2 class="subtitle">Obten el plan perfecto </h2>
+
+            <div class="price_table">
+                <div class="price_element ">
+                <p class="price_name">CSS3</p>
+                <h3 class="price_price">Free</h3>
+
+                <div class="price_items">
+                    <p class="price_features">Flexbox</p>
+                    <p class="price_features">Layouts</p>
+                    <p class="price_features">Respónsive</p>
+                </div>
+                <a href="#" class="price_cta price_cta_anim">Empieza ahora</a>
+            </div>
+
+           
+                <div class="price_element price_element--best">
+                <p class="price_name">Grid</p>
+                <h3 class="price_price">$30/mes</h3>
+
+                <div class="price_items">
+                    <p class="price_features">Grid</p>
+                    <p class="price_features">Implicit Grid</p>
+                    <p class="price_features">Responsive</p>
+                </div>
+                <a href="#" class="price_cta price_cta_anim_dos">Empieza ahora</a>
+            </div>
+
+            
+                <div class="price_element ">
+                <p class="price_name">Animaciones</p>
+                <h3 class="price_price">$40/mes</h3>
+
+                <div class="price_items">
+                    <p class="price_features">Animaciones</p>
+                    <p class="price_features">Transition</p>
+                    <p class="price_features">Render Website</p>
+                </div>
+                <a href="#" class="price_cta price_cta_anim">Empieza ahora</a>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section id="testimony" >
+            <div class="testimony_container container">
+                <img src="./img/flechaIzquierda.svg" class="testimony_arrow" id="before">
+
+                <section class="testimony_body testimony_body--show" data-id="1">
+                   <div class="testimony_texts">
+                    <h2 class="subtitle">James Jhonson <span class="testimony_course">23 años (Desarrollador Front-End Jr) .</span></h2>
+                    <p class="testimony_review">Buenos profesores resuelven cualquier duda que les preguntemos.</p>
+                   </div>
+                   <figure class="testimony_picture">
+                    <img src="./img/personas1.jpg" alt="" class="testimony_img">
+                   </figure>
+                </section>
+
+                 <section class="testimony_body" data-id="2">
+                    <div class="testimony_texts">
+                     <h2 class="subtitle">Estefany Wong <span class="testimony_course">22 años (Diseñador gráfico)</span></h2>
+                     <p class="testimony_review">Me he comprado el curso Standar y he aprendido cosas que desconocia .</p>
+                    </div>
+                    <figure class="testimony_picture">
+                     <img src="./img/persona3.jpg" alt="" class="testimony_img">
+                    </figure>
+                 </section>
+
+                 <section class="testimony_body" data-id="3">
+                    <div class="testimony_texts">
+                     <h2 class="subtitle">Juan Lopez . <span class="testimony_course">25 años (Desarrollador Front-End Jr ).</span></h2>
+                     <p class="testimony_review">Valio cada centavo invertido en este curso ahora lo puedo agregar a mi CV.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                     <img src="./img/persona2.jpg" alt="" class="testimony_img">
+                    </figure>
+                 </section> 
+
+                 
+
+                <img src="./img/flechaDerecha.svg" class="testimony_arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle"> Preguntas frecuentes</h2>
+            <p class="questions_paragraph">Lo que debes de saber antes de tomar el curso</p>
+
+            <section class="questions_container">
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Que es css?
+                            <span class="questions_arrow">
+                                <img src="./img/flechaAbajo.svg" class="question_img">
+                            </span>
+                        </h3>
+                        <p class="questions_show">El CSS es lo que se llama un lenguaje de hojas de estilo en cascada y se utiliza para estilizar elementos escritos en un lenguaje de marcado como HTML. Separa el contenido de la representación visual del sitio.</p>
+                    </div>
+                </article>
+
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Cuales son las ventajas de CSS?
+                            <span class="questions_arrow">
+                                <img src="./img/flechaAbajo.svg" class="question_img">
+                            </span>
+                        </h3>
+                        <p class="questions_show">CSS permite estilizar todo en un archivo diferente, creando el estilo allí y después
+                             integrando el archivo CSS sobre el marcado HTML. Esto hace que el marcado HTML sea mucho más limpio y 
+                             fácil de mantener. CSS te permite tener múltiples estilos en una página HTML, y esto hace que las posibilidades de personalización sean casi infinitas.
+                              Hoy en día, esto se está volviendo una necesidad más que algo básico.</p>
+                    </div>
+                </article>
+            
+
+            
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Duración del curso?
+                            <span class="questions_arrow">
+                                <img src="./img/flechaAbajo.svg" class="question_img">
+                            </span>
+                        </h3>
+                        <p class="questions_show">El curso dura aproximadamente 2 meses , pero se puede adecuar deacuero a las necesidades del usuario , haciendolo más corto o más largo.</p>
+                    </div>
+                </article>
+
+            </section>
+        </section>
+
+        <section class="formu_container " id="formu-link">
+           
+            <div class="formu_contact container">
+                <h2 class="subtitle">Contáctanos </h2>
+              <div class="contact-content">
+        
+                <form id="form" action="" class="form">
+             
+                  <label class="formu_label" for="name">Nombre Completo <span>*</span></label>
+                  <input class="formu_input" name="name" required type="text" id="name" placeholder="Escriba aqui su nombre.....">
+                  <label class="formu_label" for="email">Correo electrónico <span>*</span></label>
+                  <input class="formu_input" name="email" type="text" id="email" required placeholder="Ejemplo@gmail.com">
+                  <label class="formu_label"  for="message">Mensaje</label>
+                  <textarea class="formu_textarea" id="message" name="message" id="" cols="30" rows="10" required placeholder="Escribe algo aqui....."></textarea>
+                  <button class="cta cta_anim" type="submit" class="btn primary full">enviar mensaje</button>
+                </form>
+                <a href="mailto:alexis524@live.com.mx" id="tru"></a>
+              </div>
+            </div>
+          </section>
+        
+        <section class="questions_offer">
+            <h2 class="subtitle">¿Estas listo para aprender?</h2>
+            <p class="questions_copy">Solo da clic en este enlace y comienza a prender.</p>
+                  <a href="#" class="cta cta_anim">Aprende ahora</a>
+        </section>
+
+         
+   
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title"></h2>
+                <ul class="nav_link nav_link--footer">
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#about-link" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#price-link" class="nav_links">Plan</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#testimony" class="nav_links">Tetsimonios</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#formu-link" class="nav_links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <form action="" class="footer_form">
+                <h2 class="footer_newsletter">Suscribete</h2>
+                <div class="footer_inputs">
+                    <input type="email" placeholder="Email" class="footer_input">
+                    <input type="submit" value="Registrate" class="footer_submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="" class="footer_icons"><img src="./img/facebook.svg" class="footer_imag"></a>
+                <a href="" class="footer_icons"><img src="./img/twitter.svg" class="footer_imag"></a>
+                <a href="" class="footer_icons"><img src="./img/youtube.svg" class="footer_imag"></a>
+            </div>
+
+            <h3 class="footer_copyright">Derechos reservados &copy; FORZE </h3>
+            
+        </section>
+
+    </footer>
+   
+    <script src="./js/javascript.js"></script>
+</body>
+
+</html>
